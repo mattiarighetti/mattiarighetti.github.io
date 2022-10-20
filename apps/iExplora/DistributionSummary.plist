@@ -15,9 +15,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>FCB10CD14F2C441D0FC2821195EA2C514314DC29</string>
+				<string>B06AE5E90EE0F9C3B4E73482138DAAECE7EA56E9</string>
 				<key>dateExpires</key>
-				<string>18/10/22</string>
+				<string>20/10/23</string>
 				<key>type</key>
 				<string>Apple Distribution</string>
 			</dict>
@@ -39,11 +39,11 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>19eab05d-cea9-4dae-9cb0-e509e46b6952</string>
+				<string>ca6e4604-92ff-4ccd-a866-f60c89026f57</string>
 				<key>dateExpires</key>
-				<string>18/10/22</string>
+				<string>20/10/23</string>
 				<key>name</key>
-				<string>iExplora Distribution Profile</string>
+				<string>iExplora Distribution Profile 2022</string>
 			</dict>
 			<key>team</key>
 			<dict>
