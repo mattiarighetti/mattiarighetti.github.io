@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iExplora.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FCB10CD14F2C441D0FC2821195EA2C514314DC29</string>
+				<key>dateExpires</key>
+				<string>18/10/22</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2F9U55FZG7.it.mattiarighetti.iExplora</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2F9U55FZG7</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>2F9U55FZG7.it.mattiarighetti.iExplora</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>iExplora.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>19eab05d-cea9-4dae-9cb0-e509e46b6952</string>
+				<key>dateExpires</key>
+				<string>18/10/22</string>
+				<key>name</key>
+				<string>iExplora Distribution Profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2F9U55FZG7</string>
+				<key>name</key>
+				<string>Mattia Righetti</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>2.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
