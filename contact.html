@@ -6,12 +6,12 @@
     <meta charset="utf-8" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="description" content="Full stack developer">
-    <link rel="canonical" href="https://www.mattiarighetti.it/">
+    <link rel="canonical" href="https://rght.it/">
     <meta property="og:locale" content="it_IT">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Mattia Righetti">
     <meta property="og:description" content="Full stack developer.">
-    <meta property="og:url" content="https://www.mattiarighetti.it/">
+    <meta property="og:url" content="https://tght.it/">
     <meta property="og:site_name" content="Mattia Righetti">
     <meta property="article:modified_time" content="2022-04-18T16:51:58+00:00">
     <meta property="og:image" content="">
@@ -49,15 +49,9 @@
             float: right;
         }
     </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPFBH3PVRN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-EPFBH3PVRN');
-    </script>
-    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/Trd6gj1dhC_fx0ma_AWHc1me/recaptcha__it.js" crossorigin="anonymous" integrity="sha384-PV9XwxZW1kemOSQEm8XiMFN+mjI4sg9lXYtF22rkdJvBIOzqC07Qv1PgdOgCkwAU"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript">
         var contacts = new Map();
         contacts.set('email', 'bUByZ2h0Lml0');
@@ -65,9 +59,10 @@
         contacts.set('imessage', 'aW1lc3NhZ2VAcmdodC5pdA==');
 
         var contactType = new URLSearchParams(window.location.search).get('type');
+
         var submit_recaptcha_form = function(response) {
             $(".g-recaptcha").hide();
-            $("#recaptcha-form").append(btoa(contacts.get(contactType)));
+            $("#recaptcha-form").append("<a href\"mailto:" . btoa(contacts.get(contactType)) + "\">" + btoa(contacts.get(contactType)) + "</a>");
         };
       </script>
 </head>
