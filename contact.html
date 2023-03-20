@@ -59,11 +59,12 @@
         contacts.set('imessage', 'aW1lc3NhZ2VAcmdodC5pdA==');
 
         var contactType = new URLSearchParams(window.location.search).get('type');
+        var contactSyntax = contactType == 'imessage' ? 'sms:' : 'mailto:';
 
         function submit_recaptcha_form() {
             return new Promise(function(resolve, reject) { 
             $(".g-recaptcha").hide();
-            $("#recaptcha-form").append("<a href\"mailto:" + atob(contacts.get(contactType)) + "\">" + atob(contacts.get(contactType)) + "</a>");
+            $("#recaptcha-form").append("<a href=\"" + contactSyntax + atob(contacts.get(contactType)) + "\">" + atob(contacts.get(contactType)) + "</a>");
             resolve;
         })
     };
