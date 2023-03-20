@@ -63,7 +63,7 @@
         function submit_recaptcha_form() {
             return new Promise(function(resolve, reject) { 
             $(".g-recaptcha").hide();
-            $("#recaptcha-form").append("<a href\"mailto:" + btoa(contacts.get(contactType)) + "\">" + btoa(contacts.get(contactType)) + "</a>");
+            $("#recaptcha-form").append("<a href\"mailto:" + atob(contacts.get(contactType)) + "\">" + atob(contacts.get(contactType)) + "</a>");
             resolve;
         })
     };
