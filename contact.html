@@ -55,19 +55,28 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-EPFBH3PVRN');
     </script>
     <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+    <script type="text/javascript">
+        var contacts = new Map();
+        contacts.set('email', 'bUByZ2h0Lml0');
+        contacts.set('pec', 'cmlnaGV0dGlAcG9zdGVjZXJ0Lml0');
+        contacts.set('imessage', 'aW1lc3NhZ2VAcmdodC5pdA==');
+
+        var contactType = new URLSearchParams(window.location.search).get('type');
+        var submit_recaptcha_form = function(response) {
+            $(".g-recaptcha").hide();
+            $("#recaptcha-form").append(btoa(contacts.get(contactType)));
+        };
+      </script>
 </head>
 
 <body class="d-flex flex-column h-100">
     <header class="mb-auto"></header>
     <main class="flex-shrink-0 px-3 text-center d-flex p-3 mx-auto flex-column">
-        <form action="?" method="POST">
-            <div class="g-recaptcha" data-sitekey="6LdJIhklAAAAAHrTglgvftCgN3vOfaQr13xv-2qI" data-action="LOGIN"></div>
-            <br/>
-            <input type="submit" value="Submit">
+        <form action="?" method="POST" id="rechaptcha-form">
+            <div class="g-recaptcha" data-sitekey="6LdJIhklAAAAAHrTglgvftCgN3vOfaQr13xv-2qI" data-callback="submit_recaptcha_form"></div>
           </form>
     </main>
     <footer class="footer mt-auto py-3 bg-light">
