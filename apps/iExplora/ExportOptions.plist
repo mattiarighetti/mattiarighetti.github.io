@@ -9,18 +9,18 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://mattiarighetti.it/apps/iExplora/iExplora.ipa</string>
+		<string>https://rght.it/apps/iExplora/iExplora.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://mattiarighetti.it/apps/iExplora/image.57x57.png</string>
+		<string>https://rght.it/apps/iExplora/image.57x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://mattiarighetti.it/apps/iExplora/image.512x512.png</string>
+		<string>https://rght.it/apps/iExplora/image.512x512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>it.mattiarighetti.iExplora</key>
-		<string>iExplora Distribution Profile 2022</string>
+		<string>iExplora Distribution Profile 2023</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
