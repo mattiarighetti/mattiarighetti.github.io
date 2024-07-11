@@ -1,0 +1,787 @@
+2024-07-11 21:43:07 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f7f75c7f5d0; archive(resolved)="<IDEArchive: 0x7f7f596c0c30>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f7f75c7f5d0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7f7f75a47560; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f73e9dc40; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f606746f0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f7246a990; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f6f260b20; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f6d6e4f50; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f75853a30; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f5e608710; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x7f7f6ee4c350; teamID='2F9U55FZG7', teamName='Mattia Righetti', teamType='Individual', username='mattiarighe@icloud.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x7f7f5d9ca9f0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="(null)">
+	<IDEDistributionContext: 0x7f7f5e6094e0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="(null)">
+	<IDEDistributionContext: 0x7f7f586e2af0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="(null)">
+	<IDEDistributionContext: 0x7f7f75a7c630; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x7f7f74a7e200>", team="(null)">
+	<IDEDistributionContext: 0x7f7f596dfad0; archive = "<IDEArchive: 0x7f7f596c0c30>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7f7f75c7f5d0>
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionCopyItemStep
+2024-07-11 21:43:07 +0000  Running /usr/bin/ditto '-V' '/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app'
+2024-07-11 21:43:07 +0000  >>> Copying /Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app 
+2024-07-11 21:43:07 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-07-11 21:43:07 +0000  19377 bytes for ./_CodeSignature/CodeResources
+2024-07-11 21:43:07 +0000  copying file ./AppIcon20x20@2x.png ... 
+2024-07-11 21:43:07 +0000  5210 bytes for ./AppIcon20x20@2x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon57x57.png ... 
+2024-07-11 21:43:07 +0000  6839 bytes for ./AppIcon57x57.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon20x20@3x.png ... 
+2024-07-11 21:43:07 +0000  7607 bytes for ./AppIcon20x20@3x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon29x29.png ... 
+2024-07-11 21:43:07 +0000  4332 bytes for ./AppIcon29x29.png
+2024-07-11 21:43:07 +0000  copying file ./validazione.png ... 
+2024-07-11 21:43:07 +0000  554 bytes for ./validazione.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon60x60@2x.png ... 
+2024-07-11 21:43:07 +0000  15726 bytes for ./AppIcon60x60@2x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon60x60@2x~car.png ... 
+2024-07-11 21:43:07 +0000  13641 bytes for ./AppIcon60x60@2x~car.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon60x60@3x~car.png ... 
+2024-07-11 21:43:07 +0000  19590 bytes for ./AppIcon60x60@3x~car.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon72x72@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  16207 bytes for ./AppIcon72x72@2x~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon29x29@2x.png ... 
+2024-07-11 21:43:07 +0000  6923 bytes for ./AppIcon29x29@2x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon40x40@3x.png ... 
+2024-07-11 21:43:07 +0000  13641 bytes for ./AppIcon40x40@3x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon57x57@2x.png ... 
+2024-07-11 21:43:07 +0000  13015 bytes for ./AppIcon57x57@2x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon29x29~ipad.png ... 
+2024-07-11 21:43:07 +0000  4475 bytes for ./AppIcon29x29~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon40x40@2x.png ... 
+2024-07-11 21:43:07 +0000  9374 bytes for ./AppIcon40x40@2x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon29x29@3x.png ... 
+2024-07-11 21:43:07 +0000  11080 bytes for ./AppIcon29x29@3x.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon60x60@3x.png ... 
+2024-07-11 21:43:07 +0000  19590 bytes for ./AppIcon60x60@3x.png
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib ... 
+2024-07-11 21:43:07 +0000  3865 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2024-07-11 21:43:07 +0000  5438 bytes for ./Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-09b-Cx-s9V.nib ... 
+2024-07-11 21:43:07 +0000  978 bytes for ./Base.lproj/Main.storyboardc/UIViewController-09b-Cx-s9V.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib ... 
+2024-07-11 21:43:07 +0000  5224 bytes for ./Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-VOU-R2-Jp0.nib ... 
+2024-07-11 21:43:07 +0000  978 bytes for ./Base.lproj/Main.storyboardc/UIViewController-VOU-R2-Jp0.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/09b-Cx-s9V-view-4Xi-jU-279.nib ... 
+2024-07-11 21:43:07 +0000  7089 bytes for ./Base.lproj/Main.storyboardc/09b-Cx-s9V-view-4Xi-jU-279.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2024-07-11 21:43:07 +0000  405 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/Main.storyboardc/VOU-R2-Jp0-view-SFX-yt-YVu.nib ... 
+2024-07-11 21:43:07 +0000  5785 bytes for ./Base.lproj/Main.storyboardc/VOU-R2-Jp0-view-SFX-yt-YVu.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2024-07-11 21:43:07 +0000  2198 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2024-07-11 21:43:07 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2024-07-11 21:43:07 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2024-07-11 21:43:07 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2024-07-11 21:43:07 +0000  copying file ./Localizable.strings ... 
+2024-07-11 21:43:07 +0000  2503 bytes for ./Localizable.strings
+2024-07-11 21:43:07 +0000  copying file ./print.png ... 
+2024-07-11 21:43:07 +0000  450 bytes for ./print.png
+2024-07-11 21:43:07 +0000  copying file ./Assets.car ... 
+2024-07-11 21:43:07 +0000  875791 bytes for ./Assets.car
+2024-07-11 21:43:07 +0000  copying file ./AppIcon40x40@2x~ipad.png ... 
+10227 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./logo.jpg ... 
+2024-07-11 21:43:07 +0000  3476 bytes for ./logo.jpg
+2024-07-11 21:43:07 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  16871 bytes for ./AppIcon76x76@2x~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon72x72~ipad.png ... 
+2024-07-11 21:43:07 +0000  8518 bytes for ./AppIcon72x72~ipad.png
+copying file ./iExplora ... 
+2024-07-11 21:43:07 +0000  4906368 bytes for ./iExplora
+2024-07-11 21:43:07 +0000  copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  18601 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon50x50~ipad.png ... 
+2024-07-11 21:43:07 +0000  6149 bytes for ./AppIcon50x50~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon29x29@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  7307 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon50x50@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  11617 bytes for ./AppIcon50x50@2x~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./AppIcon40x40~ipad.png ... 
+2024-07-11 21:43:07 +0000  5415 bytes for ./AppIcon40x40~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2024-07-11 21:43:07 +0000  335088 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2024-07-11 21:43:07 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2024-07-11 21:43:07 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2024-07-11 21:43:07 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftUIKit.dylib ... 
+2024-07-11 21:43:07 +0000  655616 bytes for ./Frameworks/libswiftUIKit.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2024-07-11 21:43:07 +0000  395696 bytes for ./Frameworks/libswiftMetal.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2024-07-11 21:43:07 +0000  1377376 bytes for ./Frameworks/libswiftDispatch.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+396976 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2024-07-11 21:43:07 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2024-07-11 21:43:07 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2024-07-11 21:43:07 +0000  338272 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2024-07-11 21:43:07 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2024-07-11 21:43:07 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+2024-07-11 21:43:07 +0000  copying file ./AppIcon20x20~ipad.png ... 
+2024-07-11 21:43:07 +0000  3935 bytes for ./AppIcon20x20~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./embedded.mobileprovision ... 
+2024-07-11 21:43:07 +0000  13029 bytes for ./embedded.mobileprovision
+2024-07-11 21:43:07 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2024-07-11 21:43:07 +0000  5415 bytes for ./AppIcon20x20@2x~ipad.png
+2024-07-11 21:43:07 +0000  copying file ./Info.plist ... 
+2024-07-11 21:43:07 +0000  1844 bytes for ./Info.plist
+2024-07-11 21:43:07 +0000  copying file ./PkgInfo ... 
+2024-07-11 21:43:07 +0000  8 bytes for ./PkgInfo
+2024-07-11 21:43:07 +0000  copying file ./AppIcon76x76~ipad.png ... 
+2024-07-11 21:43:07 +0000  8828 bytes for ./AppIcon76x76~ipad.png
+2024-07-11 21:43:07 +0000  /usr/bin/ditto exited with 0
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f56e60110; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d6ea730; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f75e97ca0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f59f976c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f718a9630; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e06e7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f75eed920; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e73caa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f74a43b20; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d4447a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f75a8a9d0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5a796c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f75e24270; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ecc7e60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f75e33460; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ef08280; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f72b47e30; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5d9d0d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f71816a80; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5abb6260; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f59cbc9d0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f588cc010; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f73f98a90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7f74a71820; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5dff6c20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionInfoPlistStep
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2024-07-11 21:43:07 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-07-11 21:43:07 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionSymbolsStep
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionAppThinningStep
+2024-07-11 21:43:08 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionArchThinningStep
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2024-07-11 21:43:08 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2024-07-11 21:43:08 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/iExplora' '-verify_arch' 'arm64e'
+2024-07-11 21:43:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-07-11 21:43:08 +0000  Skipping architecture thinning for item "iExplora" because arch "arm64e" wasn't found
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionODRStep
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionStripXattrsStep
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f56e60110; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d6ea730; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5ad9be60; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f75e97ca0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f59f976c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590e8ba0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f718a9630; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e06e7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590e8ba0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f75eed920; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e73caa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590e8ba0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f74a43b20; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d4447a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590ef5d0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f75a8a9d0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5a796c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58161090; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f75e24270; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ecc7e60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f75e33460; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ef08280; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75c552b0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f72b47e30; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5d9d0d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5a7a1770; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f71816a80; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5abb6260; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e1b4460; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f588cc010; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f73f98a90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75cc8a10; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7f74a71820; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5dff6c20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2024-07-11 21:43:08 +0000  Running /usr/bin/xattr '-crs' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app'
+2024-07-11 21:43:08 +0000  /usr/bin/xattr exited with 0
+2024-07-11 21:43:08 +0000  Processing step: IDEDistributionCodesignStep
+2024-07-11 21:43:08 +0000  Entitlements for <IDEDistributionItem: 0x7f7f56e60110; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d6ea730; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590e8ba0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:08 +0000  Entitlements for <IDEDistributionItem: 0x7f7f56e60110; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d6ea730; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5abb92d0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f56e60110; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d6ea730; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f74a62980; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7f7f5e6752d0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~y3snEI
+2024-07-11 21:43:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~y3snEI' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib'
+2024-07-11 21:43:08 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2024-07-11 21:43:09 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e97ca0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f59f976c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f581657d0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e97ca0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f59f976c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58161090; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75e97ca0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f59f976c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75c9f160; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7f7f6d40ffe0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~7ONlDD
+2024-07-11 21:43:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~7ONlDD' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2024-07-11 21:43:09 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f718a9630; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e06e7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f581657d0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f718a9630; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e06e7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58161090; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f718a9630; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e06e7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f581175e0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7f7f6e44d7e0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~cw01ln
+2024-07-11 21:43:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~cw01ln' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2024-07-11 21:43:09 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75eed920; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e73caa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f59032950; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75eed920; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e73caa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75ef0f70; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75eed920; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5e73caa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58ceb310; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7f7f748981b0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~QDX2n6
+2024-07-11 21:43:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~QDX2n6' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib'
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2024-07-11 21:43:09 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f74a43b20; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d4447a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f74a43b20; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d4447a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f74a43b20; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6d4447a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f73b62de0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7f7f72d31790:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~7hcFJc
+2024-07-11 21:43:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~7hcFJc' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib'
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2024-07-11 21:43:09 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75a8a9d0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5a796c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f59032950; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:09 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75a8a9d0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5a796c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5814bf30; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:09 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75a8a9d0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5a796c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7f7f67cffda0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~34yPwX
+2024-07-11 21:43:09 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~34yPwX' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib'
+2024-07-11 21:43:09 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e24270; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ecc7e60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f73b62de0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e24270; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ecc7e60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590e8ba0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75e24270; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ecc7e60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5aa36210; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7f7f72dfd010:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~j8UYIY
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~j8UYIY' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e33460; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ef08280; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f73b62de0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75e33460; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ef08280; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75e33460; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f6ef08280; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7f7f6ecc7d60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~HrZ0ME
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~HrZ0ME' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f72b47e30; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5d9d0d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f72b47e30; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5d9d0d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f72b47e30; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5d9d0d00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590ea4f0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7f7f74872020:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~XqMVvl
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~XqMVvl' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f71816a80; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5abb6260; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f586d8e00; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f71816a80; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5abb6260; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f71816a80; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5abb6260; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58185e70; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7f7f75d267c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~Wcb6VA
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~Wcb6VA' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f588cc010; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f73f98a90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f588cc010; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f73f98a90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5907dfd0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f588cc010; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f73f98a90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f58185720; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7f7f74873aa0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~pevUP9
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~pevUP9' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2024-07-11 21:43:10 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f74a71820; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5dff6c20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f586d8e00; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2024-07-11 21:43:10 +0000  Entitlements for <IDEDistributionItem: 0x7f7f74a71820; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5dff6c20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75cc5920; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> are: {
+}
+2024-07-11 21:43:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f74a71820; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5dff6c20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f5e99b7a0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='(null)', teamID='2F9U55FZG7', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7f7f748726c0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~QpKTqF
+2024-07-11 21:43:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~QpKTqF' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib'
+2024-07-11 21:43:10 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib: replacing existing signature
+2024-07-11 21:43:11 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2024-07-11 21:43:11 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:11 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75ef0980; bundleID='it.mattiarighetti.iExplora', path='<DVTFilePath:0x7f7f7189dee0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5904cb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f733a7d50; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='{
+    "application-identifier" = "2F9U55FZG7.it.mattiarighetti.iExplora";
+    "com.apple.developer.team-identifier" = 2F9U55FZG7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2F9U55FZG7.it.mattiarighetti.iExplora"
+    );
+}', teamID='2F9U55FZG7', identifier='it.mattiarighetti.iExplora', executablePath='<DVTFilePath:0x7f7f734c4c60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/iExplora'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2F9U55FZG7.it.mattiarighetti.iExplora";
+    "com.apple.developer.team-identifier" = 2F9U55FZG7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2F9U55FZG7.it.mattiarighetti.iExplora"
+    );
+}
+2024-07-11 21:43:11 +0000  Entitlements for <IDEDistributionItem: 0x7f7f75ef0980; bundleID='it.mattiarighetti.iExplora', path='<DVTFilePath:0x7f7f7189dee0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5904cb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f75cc5920; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='{
+    "application-identifier" = "2F9U55FZG7.it.mattiarighetti.iExplora";
+    "com.apple.developer.team-identifier" = 2F9U55FZG7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2F9U55FZG7.it.mattiarighetti.iExplora"
+    );
+}', teamID='2F9U55FZG7', identifier='it.mattiarighetti.iExplora', executablePath='<DVTFilePath:0x7f7f734c4c60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/iExplora'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "2F9U55FZG7.it.mattiarighetti.iExplora";
+    "com.apple.developer.team-identifier" = 2F9U55FZG7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2F9U55FZG7.it.mattiarighetti.iExplora"
+    );
+}
+2024-07-11 21:43:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7f75ef0980; bundleID='it.mattiarighetti.iExplora', path='<DVTFilePath:0x7f7f7189dee0:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f7f5904cb60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f7f590ef5c0; name='Apple Distribution: Mattia Righetti (2F9U55FZG7)', hash='913A7C95C7DAF193C7EFA0614682A73E2E000994', serialNumber='3C88F924F234ED44BD4AC81C0C82FFA1', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-10-07 08:43:22 +0000''>', entitlements='{
+    "application-identifier" = "2F9U55FZG7.it.mattiarighetti.iExplora";
+    "com.apple.developer.team-identifier" = 2F9U55FZG7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "2F9U55FZG7.it.mattiarighetti.iExplora"
+    );
+}', teamID='2F9U55FZG7', identifier='it.mattiarighetti.iExplora', executablePath='<DVTFilePath:0x7f7f734c4c60:'/Users/mattiarighetti/Library/Developer/Xcode/Archives/2024-07-11/iExplora 11-07-24, 23.40.xcarchive/Products/Applications/iExplora.app/iExplora'>', hardenedRuntime='0'>'> to: /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~jMsEUI
+2024-07-11 21:43:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '913A7C95C7DAF193C7EFA0614682A73E2E000994' '--entitlements' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/entitlements~~~jMsEUI' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app'
+2024-07-11 21:43:11 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app: replacing existing signature
+2024-07-11 21:43:11 +0000  /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app: signed app bundle with Mach-O universal (armv7 arm64) [it.mattiarighetti.iExplora]
+2024-07-11 21:43:11 +0000  /usr/bin/codesign exited with 0
+2024-07-11 21:43:11 +0000  Processing step: IDEDistributionZipODRItemStep
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-07-11 21:43:11 +0000  Processing step: IDEDistributionCreateIPAStep
+2024-07-11 21:43:11 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root' '/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Packages/iExplora.ipa'
+2024-07-11 21:43:11 +0000  >>> Copying /var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root 
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/_CodeSignature/CodeResources ... 
+2024-07-11 21:43:11 +0000  19377 bytes for ./Payload/iExplora.app/_CodeSignature/CodeResources
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/AppIcon20x20@2x.png ... 
+2024-07-11 21:43:11 +0000  5210 bytes for ./Payload/iExplora.app/AppIcon20x20@2x.png
+copying file ./Payload/iExplora.app/AppIcon57x57.png ... 
+2024-07-11 21:43:11 +0000  6839 bytes for ./Payload/iExplora.app/AppIcon57x57.png
+copying file ./Payload/iExplora.app/AppIcon20x20@3x.png ... 
+2024-07-11 21:43:11 +0000  7607 bytes for ./Payload/iExplora.app/AppIcon20x20@3x.png
+copying file ./Payload/iExplora.app/AppIcon29x29.png ... 
+2024-07-11 21:43:11 +0000  4332 bytes for ./Payload/iExplora.app/AppIcon29x29.png
+copying file ./Payload/iExplora.app/validazione.png ... 
+2024-07-11 21:43:11 +0000  554 bytes for ./Payload/iExplora.app/validazione.png
+copying file ./Payload/iExplora.app/AppIcon60x60@2x.png ... 
+2024-07-11 21:43:11 +0000  15726 bytes for ./Payload/iExplora.app/AppIcon60x60@2x.png
+copying file ./Payload/iExplora.app/AppIcon60x60@2x~car.png ... 
+2024-07-11 21:43:11 +0000  13641 bytes for ./Payload/iExplora.app/AppIcon60x60@2x~car.png
+copying file ./Payload/iExplora.app/AppIcon60x60@3x~car.png ... 
+2024-07-11 21:43:11 +0000  19590 bytes for ./Payload/iExplora.app/AppIcon60x60@3x~car.png
+copying file ./Payload/iExplora.app/AppIcon72x72@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  16207 bytes for ./Payload/iExplora.app/AppIcon72x72@2x~ipad.png
+copying file ./Payload/iExplora.app/AppIcon29x29@2x.png ... 
+2024-07-11 21:43:11 +0000  6923 bytes for ./Payload/iExplora.app/AppIcon29x29@2x.png
+copying file ./Payload/iExplora.app/AppIcon40x40@3x.png ... 
+2024-07-11 21:43:11 +0000  13641 bytes for ./Payload/iExplora.app/AppIcon40x40@3x.png
+copying file ./Payload/iExplora.app/AppIcon57x57@2x.png ... 
+2024-07-11 21:43:11 +0000  13015 bytes for ./Payload/iExplora.app/AppIcon57x57@2x.png
+copying file ./Payload/iExplora.app/AppIcon29x29~ipad.png ... 
+2024-07-11 21:43:11 +0000  4475 bytes for ./Payload/iExplora.app/AppIcon29x29~ipad.png
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/AppIcon40x40@2x.png ... 
+2024-07-11 21:43:11 +0000  9374 bytes for ./Payload/iExplora.app/AppIcon40x40@2x.png
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/AppIcon29x29@3x.png ... 
+2024-07-11 21:43:11 +0000  11080 bytes for ./Payload/iExplora.app/AppIcon29x29@3x.png
+copying file ./Payload/iExplora.app/AppIcon60x60@3x.png ... 
+2024-07-11 21:43:11 +0000  19590 bytes for ./Payload/iExplora.app/AppIcon60x60@3x.png
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib ... 
+2024-07-11 21:43:11 +0000  3865 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UITabBarController-49e-Tb-3d3.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib ... 
+2024-07-11 21:43:11 +0000  5438 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UIViewController-09b-Cx-s9V.nib ... 
+2024-07-11 21:43:11 +0000  978 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UIViewController-09b-Cx-s9V.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib ... 
+2024-07-11 21:43:11 +0000  5224 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UIViewController-VOU-R2-Jp0.nib ... 
+2024-07-11 21:43:11 +0000  978 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/UIViewController-VOU-R2-Jp0.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/09b-Cx-s9V-view-4Xi-jU-279.nib ... 
+2024-07-11 21:43:11 +0000  7089 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/09b-Cx-s9V-view-4Xi-jU-279.nib
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2024-07-11 21:43:11 +0000  405 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/iExplora.app/Base.lproj/Main.storyboardc/VOU-R2-Jp0-view-SFX-yt-YVu.nib ... 
+2024-07-11 21:43:11 +0000  5785 bytes for ./Payload/iExplora.app/Base.lproj/Main.storyboardc/VOU-R2-Jp0-view-SFX-yt-YVu.nib
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2024-07-11 21:43:11 +0000  2198 bytes for ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2024-07-11 21:43:11 +0000  896 bytes for ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2024-07-11 21:43:11 +0000  258 bytes for ./Payload/iExplora.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/iExplora.app/Localizable.strings ... 
+2024-07-11 21:43:11 +0000  2503 bytes for ./Payload/iExplora.app/Localizable.strings
+copying file ./Payload/iExplora.app/print.png ... 
+2024-07-11 21:43:11 +0000  450 bytes for ./Payload/iExplora.app/print.png
+copying file ./Payload/iExplora.app/Assets.car ... 
+2024-07-11 21:43:11 +0000  875791 bytes for ./Payload/iExplora.app/Assets.car
+copying file ./Payload/iExplora.app/AppIcon40x40@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  10227 bytes for ./Payload/iExplora.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/iExplora.app/logo.jpg ... 
+2024-07-11 21:43:11 +0000  3476 bytes for ./Payload/iExplora.app/logo.jpg
+copying file ./Payload/iExplora.app/AppIcon76x76@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  16871 bytes for ./Payload/iExplora.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/iExplora.app/AppIcon72x72~ipad.png ... 
+2024-07-11 21:43:11 +0000  8518 bytes for ./Payload/iExplora.app/AppIcon72x72~ipad.png
+copying file ./Payload/iExplora.app/iExplora ... 
+2024-07-11 21:43:11 +0000  4906368 bytes for ./Payload/iExplora.app/iExplora
+copying file ./Payload/iExplora.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  18601 bytes for ./Payload/iExplora.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/iExplora.app/AppIcon50x50~ipad.png ... 
+2024-07-11 21:43:11 +0000  6149 bytes for ./Payload/iExplora.app/AppIcon50x50~ipad.png
+copying file ./Payload/iExplora.app/AppIcon29x29@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  7307 bytes for ./Payload/iExplora.app/AppIcon29x29@2x~ipad.png
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/AppIcon50x50@2x~ipad.png ... 
+2024-07-11 21:43:11 +0000  11617 bytes for ./Payload/iExplora.app/AppIcon50x50@2x~ipad.png
+copying file ./Payload/iExplora.app/AppIcon40x40~ipad.png ... 
+2024-07-11 21:43:11 +0000  5415 bytes for ./Payload/iExplora.app/AppIcon40x40~ipad.png
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib ... 
+2024-07-11 21:43:11 +0000  253648 bytes for ./Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib ... 
+2024-07-11 21:43:11 +0000  302640 bytes for ./Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib
+2024-07-11 21:43:11 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftCore.dylib ... 
+2024-07-11 21:43:12 +0000  16915040 bytes for ./Payload/iExplora.app/Frameworks/libswiftCore.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2024-07-11 21:43:12 +0000  646848 bytes for ./Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftUIKit.dylib ... 
+2024-07-11 21:43:12 +0000  477152 bytes for ./Payload/iExplora.app/Frameworks/libswiftUIKit.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftMetal.dylib ... 
+2024-07-11 21:43:12 +0000  298096 bytes for ./Payload/iExplora.app/Frameworks/libswiftMetal.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftDispatch.dylib ... 
+2024-07-11 21:43:12 +0000  1018912 bytes for ./Payload/iExplora.app/Frameworks/libswiftDispatch.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/Frameworks/libswiftos.dylib ... 
+2024-07-11 21:43:12 +0000  299424 bytes for ./Payload/iExplora.app/Frameworks/libswiftos.dylib
+copying file ./Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2024-07-11 21:43:12 +0000  253792 bytes for ./Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/iExplora.app/Frameworks/libswiftDarwin.dylib ... 
+2024-07-11 21:43:12 +0000  369728 bytes for ./Payload/iExplora.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib ... 
+2024-07-11 21:43:12 +0000  256864 bytes for ./Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/iExplora.app/Frameworks/libswiftFoundation.dylib ... 
+2024-07-11 21:43:12 +0000  8479552 bytes for ./Payload/iExplora.app/Frameworks/libswiftFoundation.dylib
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/AppIcon20x20~ipad.png ... 
+3935 bytes for ./Payload/iExplora.app/AppIcon20x20~ipad.png
+copying file ./Payload/iExplora.app/embedded.mobileprovision ... 
+13029 bytes for ./Payload/iExplora.app/embedded.mobileprovision
+copying file ./Payload/iExplora.app/AppIcon20x20@2x~ipad.png ... 
+2024-07-11 21:43:12 +0000  5415 bytes for ./Payload/iExplora.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/iExplora.app/Info.plist ... 
+2024-07-11 21:43:12 +0000  1844 bytes for ./Payload/iExplora.app/Info.plist
+copying file ./Payload/iExplora.app/PkgInfo ... 
+8 bytes for ./Payload/iExplora.app/PkgInfo
+2024-07-11 21:43:12 +0000  copying file ./Payload/iExplora.app/AppIcon76x76~ipad.png ... 
+2024-07-11 21:43:12 +0000  8828 bytes for ./Payload/iExplora.app/AppIcon76x76~ipad.png
+2024-07-11 21:43:12 +0000  /usr/bin/ditto exited with 0
+2024-07-11 21:43:12 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-07-11 21:43:12 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-07-11 21:43:12 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f7333d350:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f7333d350:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDarwin.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f58122ff0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f58122ff0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftObjectiveC.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f74b1b540:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f74b1b540:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftos.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f5d8ea610:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f5d8ea610:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftDispatch.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f7333d280:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f7333d280:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreFoundation.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f581554f0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f581554f0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftUIKit.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f581232c0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f581232c0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreImage.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f58117980:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f58117980:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCoreGraphics.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f72c99070:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f72c99070:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftFoundation.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f5811bad0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f5811bad0:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftCore.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f75d5b500:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f75d5b500:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftMetal.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f73355c80:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>
+2024-07-11 21:43:12 +0000  [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7f7f73355c80:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app/Frameworks/libswiftQuartzCore.dylib'>
+2024-07-11 21:43:12 +0000  IDEDistributionItem init <DVTFilePath:0x7f7f75ef5d20:'/var/folders/md/3tffkm_n6r7djfwcx9h4r1br0000gn/T/XcodeDistPipeline.~~~tLqb6b/Root/Payload/iExplora.app'>
+2024-07-11 21:43:12 +0000  Processing step: IDEDistributionCreateManifestStep
