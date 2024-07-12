@@ -23,7 +23,7 @@
 		<string>iExplora Distribution Profile 2023</string>
 	</dict>
 	<key>signingCertificate</key>
-	<string>913A7C95C7DAF193C7EFA0614682A73E2E000994</string>
+	<string>Apple Distribution</string>
 	<key>signingStyle</key>
 	<string>manual</string>
 	<key>stripSwiftSymbols</key>
