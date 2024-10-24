@@ -20,10 +20,10 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>it.mattiarighetti.iExplora</key>
-		<string>iExplora Distribution Profile 2023</string>
+		<string>iExplora Distribution Profile 2024</string>
 	</dict>
 	<key>signingCertificate</key>
-	<string>Apple Distribution</string>
+	<string>ADD810EF1DE809EBD1227B022CE7CC18E08FF385</string>
 	<key>signingStyle</key>
 	<string>manual</string>
 	<key>stripSwiftSymbols</key>
