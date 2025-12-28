@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Redirect in corso...</title>
+
+  <!-- Redirect immediato come prima scelta -->
+  <meta http-equiv="refresh" content="0;url=https://rght.it/estate26/deck-presentazione.pdf">
+
+  <script>
+    // JavaScript: usa location.replace per non lasciare la pagina corrente nella cronologia
+    (function(){
+      var target = 'https://rght.it/estate26/deck-presentazione.pdf';
+      try {
+        // una piccola protezione contro esecuzioni multiple
+        if (!window.__redirected) {
+          window.__redirected = true;
+          // replace() evita che l'utente possa tornare su questa pagina con "indietro"
+          window.location.replace(target);
+        }
+      } catch (e) {
+        // in caso di errori, mostra un link
+        console.error('Redirect fallito:', e);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Se non vieni reindirizzato automaticamente, <a href="https://rght.it/estate26/deck-presentazione.pdf">clicca qui per aprire il deck</a>.</p>
+  <noscript>
+    <p>Il tuo browser ha JavaScript disabilitato. <a href="https://rght.it/estate26/deck-presentazione.pdf">Clicca qui</a> per continuare.</p>
+  </noscript>
+</body>
+</html>
