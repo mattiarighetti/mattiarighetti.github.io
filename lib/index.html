@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Redirect in corso...</title>
+
+  <!-- Redirect immediato come prima scelta -->
+  <meta http-equiv="refresh" content="0;url=https://www.libib.com/u/mattiar">
+
+  <script>
+    // JavaScript: usa location.replace per non lasciare la pagina corrente nella cronologia
+    (function(){
+      var target = 'https://www.libib.com/u/mattiar';
+      try {
+        // una piccola protezione contro esecuzioni multiple
+        if (!window.__redirected) {
+          window.__redirected = true;
+          // replace() evita che l'utente possa tornare su questa pagina con "indietro"
+          window.location.replace(target);
+        }
+      } catch (e) {
+        // in caso di errori, mostra un link
+        console.error('Redirect fallito:', e);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Se non vieni reindirizzato automaticamente, <a href="https://www.libib.com/u/mattiar">Clicca qui per aprire Libib</a>.</p>
+  <noscript>
+    <p>Il tuo browser ha JavaScript disabilitato. <a href="https://www.libib.com/u/mattiar">Clicca qui</a> per continuare.</p>
+  </noscript>
+</body>
+</html>
