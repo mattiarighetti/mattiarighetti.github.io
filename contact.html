@@ -1,95 +1,77 @@
 <!doctype html>
-<html lang="en" class="h-100">
-
-<head>
-    <title>Mattia Righetti</title>
-    <meta charset="utf-8" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="description" content="Full stack developer">
-    <link rel="canonical" href="https://rght.it/">
+<html lang="it">
+  <head>
+    <title>Contatti - Mattia Righetti</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="description" content="Contatta Mattia Righetti.">
+    <link rel="canonical" href="https://rght.it/contact">
     <meta property="og:locale" content="it_IT">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Mattia Righetti">
-    <meta property="og:description" content="Full stack developer.">
-    <meta property="og:url" content="https://tght.it/">
+    <meta property="og:title" content="Contatti - Mattia Righetti">
+    <meta property="og:description" content="Contatta Mattia Righetti.">
+    <meta property="og:url" content="https://rght.it/contact">
     <meta property="og:site_name" content="Mattia Righetti">
-    <meta property="article:modified_time" content="2022-04-18T16:51:58+00:00">
-    <meta property="og:image" content="">
-    <meta property="og:image:width" content="">
-    <meta property="og:image:height" content="">
-    <meta property="og:image:type" content="image/jpeg">
+    <meta property="article:modified_time" content="2026-07-20T00:00:00+02:00">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mattia Righetti">
-    <meta name="twitter:description" content="Full stack developer">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:site" content="@mattiarighe">
-    <meta name="twitter:label1" content="Estimated reading time">
-    <meta name="twitter:data1" content="1 minute">
+    <meta name="twitter:title" content="Contatti - Mattia Righetti">
+    <meta name="twitter:description" content="Contatta Mattia Righetti.">
+    <meta name="twitter:site" content="@mrght">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .container {
-            width: auto;
-            max-width: 680px;
-            padding: 0 15px;
-        }
-
-        .fa {
-            padding: 16px;
-            font-size: 24px;
-            width: 32px;
-            text-align: center;
-            text-decoration: none;
-            color: black;
-        }
-
-        .archive {
-            float: right;
-        }
-    </style>
-    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/Trd6gj1dhC_fx0ma_AWHc1me/recaptcha__it.js" crossorigin="anonymous" integrity="sha384-PV9XwxZW1kemOSQEm8XiMFN+mjI4sg9lXYtF22rkdJvBIOzqC07Qv1PgdOgCkwAU"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        var contacts = new Map();
-        contacts.set('email', 'bUByZ2h0Lml0');
-        contacts.set('pec', 'cGVjQHBlYy5tYXR0aWFyaWdoZXR0aS5pdA==');
-        contacts.set('imessage', 'aW1lc3NhZ2VAcmdodC5pdA==');
+    <script>
+      var contacts = new Map();
+      contacts.set('email', 'bUByZ2h0Lml0');
+      contacts.set('pec', 'cGVjQHBlYy5tYXR0aWFyaWdoZXR0aS5pdA==');
+      contacts.set('imessage', 'aW1lc3NhZ2VAcmdodC5pdA==');
 
-        var contactType = new URLSearchParams(window.location.search).get('type');
-        var contactSyntax = contactType == 'imessage' ? 'sms:' : 'mailto:';
+      var contactType = new URLSearchParams(window.location.search).get('type') || 'email';
+      var contactSyntax = contactType === 'imessage' ? 'sms:' : 'mailto:';
 
-        function submit_recaptcha_form() {
-            return new Promise(function(resolve, reject) { 
-            $(".g-recaptcha").hide();
-            $("#recaptcha-form").append("<a href=\"" + contactSyntax + atob(contacts.get(contactType)) + "\">" + atob(contacts.get(contactType)) + "</a>");
-            resolve;
-        })
-    };
-      </script>
-</head>
+      function submit_recaptcha_form() {
+        var encodedContact = contacts.get(contactType) || contacts.get('email');
+        var decodedContact = atob(encodedContact);
 
-<body class="d-flex flex-column h-100">
-    <header class="mb-auto"></header>
-    <main class="flex-shrink-0 px-3 text-center d-flex p-3 mx-auto flex-column">
-        <form action method="POST" id="recaptcha-form">
+        $('.g-recaptcha').hide();
+        $('#contact-result').html('<a href="' + contactSyntax + decodedContact + '">' + decodedContact + '</a>');
+      }
+    </script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="topbar-inner" aria-label="Navigazione principale">
+          <a class="brand" href="/">Mattia Righetti</a>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/en/">EN</a></li>
+            <li><a href="/fr/">FR</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="contact-page">
+        <section class="contact-panel" aria-labelledby="contact-title">
+          <h1 id="contact-title">Scrivimi.</h1>
+          <p>Completa il controllo e ti mostro l'indirizzo giusto senza esporlo direttamente agli spammer.</p>
+          <form action="#" method="post" id="recaptcha-form">
             <div class="g-recaptcha" data-sitekey="6LdJIhklAAAAAHrTglgvftCgN3vOfaQr13xv-2qI" data-callback="submit_recaptcha_form"></div>
+            <div class="contact-result mt-4" id="contact-result" aria-live="polite"></div>
           </form>
-    </main>
-    <footer class="footer mt-auto py-3 bg-light">
-        <div class="container">
-            <span class="text-muted">&copy; Copyright 2022 Mattia Righetti - P. IVA 02445260207</span>
-            <span class="text-muted archive"><a
-                    href="https://web.archive.org/web/20220426195501/https://www.mattiarighetti.it/"
-                    target="_blank">Archivio</a></span>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <span>&copy; Copyright 2026 Mattia Righetti - P. IVA 02445260207</span>
+          <a href="https://web.archive.org/web/20220426195501/https://www.mattiarighetti.it/" target="_blank" rel="noopener">Archivio</a>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+      </footer>
+    </div>
 
-    </body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>
