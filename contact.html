@@ -17,12 +17,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <script>
-      // Apply theme immediately to prevent flashing
-      const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-      document.documentElement.setAttribute('data-theme', currentTheme);
-    </script>
     
     <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/Trd6gj1dhC_fx0ma_AWHc1me/recaptcha__it.js" crossorigin="anonymous" integrity="sha384-PV9XwxZW1kemOSQEm8XiMFN+mjI4sg9lXYtF22rkdJvBIOzqC07Qv1PgdOgCkwAU"></script>
     <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
@@ -43,7 +37,7 @@
                 $("#captcha-instruction").hide();
                 const address = atob(contacts.get(contactType));
                 $("#recaptcha-form").append(
-                    "<div class='text-center mt-3 fs-4'><a href='" + contactSyntax + address + "' class='action-btn fs-5'><i class='fa fa-envelope-o'></i> " + address + "</a></div>"
+                    "<div class='text-center mt-3'><a href='" + contactSyntax + address + "' class='action-btn fs-5 px-4 py-2'><i class='fa fa-envelope-o'></i> " + address + "</a></div>"
                 );
                 resolve();
             });
@@ -54,25 +48,22 @@
 <body>
     
     <main class="main-container">
-        <!-- Top bar with home link and theme toggle -->
+        <!-- Top bar with home link -->
         <div class="top-bar">
             <div>
                 <a href="/" class="action-btn py-1 px-3">
                     <i class="fa fa-arrow-left"></i> Home
                 </a>
             </div>
-            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambia tema">
-                <i class="fa fa-sun-o"></i>
-            </button>
         </div>
 
-        <!-- Verification container -->
-        <div class="text-center my-5">
+        <!-- Verification container (Apple Auth Style) -->
+        <div class="text-center my-4">
             <div class="avatar-wrapper mb-3" style="width: 80px; height: 80px;">
                 <img src="Cappellino.jpg" alt="Foto profilo" class="avatar-img">
             </div>
-            <h2 class="mb-3">Verifica di Sicurezza</h2>
-            <p class="lead mb-4" id="captcha-instruction">Completa il CAPTCHA per visualizzare i dettagli di contatto.</p>
+            <h2 class="mb-2">Verifica Apple ID</h2>
+            <p class="lead mb-4 fs-6 text-muted" id="captcha-instruction">Completa la verifica di sicurezza per visualizzare le informazioni di contatto.</p>
             
             <form action="" method="POST" id="recaptcha-form" class="py-4 px-3 d-inline-block">
                 <div class="g-recaptcha" data-sitekey="6LdJIhklAAAAAHrTglgvftCgN3vOfaQr13xv-2qI" data-callback="submit_recaptcha_form"></div>
@@ -89,27 +80,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script>
-      const themeToggleBtn = document.getElementById('theme-toggle');
-      themeToggleBtn.addEventListener('click', () => {
-        const activeTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = activeTheme === 'light' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        updateToggleIcon(newTheme);
-      });
-      
-      function updateToggleIcon(theme) {
-        const icon = themeToggleBtn.querySelector('i');
-        if (theme === 'light') {
-          icon.className = 'fa fa-moon-o';
-        } else {
-          icon.className = 'fa fa-sun-o';
-        }
-      }
-      
-      // Initialize toggle icon state
-      updateToggleIcon(document.documentElement.getAttribute('data-theme'));
-    </script>
 </body>
 </html>

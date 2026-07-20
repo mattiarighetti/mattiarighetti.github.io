@@ -10,23 +10,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/style.css">
-
-  <script>
-    // Apply theme immediately to prevent flashing
-    const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-    document.documentElement.setAttribute('data-theme', currentTheme);
-  </script>
-  
-  <style>
-    .payment-card .copy-btn {
-      position: absolute;
-      top: 1.25rem;
-      right: 1.25rem;
-      padding: 0.25rem 0.75rem;
-      font-size: 0.75rem;
-      border-radius: 9999px;
-    }
-  </style>
 </head>
 <body>
 
@@ -38,9 +21,6 @@
         <i class="fa fa-arrow-left"></i> Home
       </a>
     </div>
-    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambia tema">
-      <i class="fa fa-sun-o"></i>
-    </button>
   </div>
 
   <!-- Profile Section -->
@@ -48,23 +28,21 @@
     <div class="avatar-wrapper" style="width: 90px; height: 90px;">
       <img src="../Cappellino.jpg" alt="Foto profilo" class="avatar-img">
     </div>
-    <h2 class="mt-3">Mattia Righetti</h2>
+    <h2>Mattia Righetti</h2>
     <p class="lead">Questi i miei riferimenti per pagamenti e trasferimenti di denaro.</p>
   </div>
 
-  <!-- Payment Cards List -->
+  <!-- Payment Cards List (Apple Settings / Wallet List Style) -->
   <div class="payment-list mb-5">
     
     <!-- IBAN Intesa Sanpaolo -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-isp', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="intesa.jpg" alt="Intesa logo">
           <span>SEPA Credit Transfer</span>
         </div>
+        <button class="copy-btn" onclick="copyText('iban-isp', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Banca:</strong> INTESA SANPAOLO S.P.A.</p>
@@ -76,58 +54,56 @@
 
     <!-- PayPal -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('paypal-email', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="paypal.jpg" alt="PayPal logo">
           <span>PayPal</span>
         </div>
+        <button class="copy-btn" onclick="copyText('paypal-email', this)">Copia Info</button>
       </div>
-      <div class="payment-details mb-3">
+      <div class="payment-details mb-2">
         <p><strong>Email:</strong> <span id="paypal-email" class="font-monospace">m@rght.it</span></p>
         <p><strong>Link:</strong> <a href="https://paypal.me/rght" target="_blank" id="paypal-link">paypal.me/rght</a></p>
       </div>
-      <button class="btn btn-sm btn-outline-success px-3 rounded-pill show-img-btn" data-img="paypal-qr.jpg">
-        <i class="fa fa-qrcode"></i> Mostra QR Code
-      </button>
+      <div>
+        <button class="action-btn py-1 px-3 fs-7 rounded-pill show-img-btn" data-img="paypal-qr.jpg">
+          <i class="fa fa-qrcode text-primary"></i> Mostra QR Code
+        </button>
+      </div>
     </div>
 
     <!-- IBAN Revolut -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-revolut', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="revolut.jpg" alt="Revolut logo">
-          <span>SEPA Credit Transfer</span>
+          <span>Revolut Transfer</span>
         </div>
+        <button class="copy-btn" onclick="copyText('iban-revolut', this)">Copia</button>
       </div>
-      <div class="payment-details mb-3">
+      <div class="payment-details mb-2">
         <p><strong>Banca:</strong> REVOLUT BANK UAB</p>
         <p><strong>Intestatario:</strong> Mattia Righetti</p>
         <p><strong>IBAN:</strong> <span id="iban-revolut" class="font-monospace">IT14D0366901600884868764116</span></p>
         <p><strong>BIC:</strong> <span class="font-monospace">CHASDEFX</span></p>
         <p><strong>Link:</strong> <a href="https://revolut.me/mrght" target="_blank" id="revolut-link">revolut.me/mrght</a></p>
       </div>
-      <button class="btn btn-sm btn-outline-success px-3 rounded-pill show-img-btn" data-img="revolut-qr.jpg">
-        <i class="fa fa-qrcode"></i> Mostra QR Code
-      </button>
+      <div>
+        <button class="action-btn py-1 px-3 fs-7 rounded-pill show-img-btn" data-img="revolut-qr.jpg">
+          <i class="fa fa-qrcode text-primary"></i> Mostra QR Code
+        </button>
+      </div>
     </div>
 
     <!-- Commented out payments (preserved) -->
     <!-- Bunq 
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-bunq', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="bunq.jpg" alt="Bunq logo">
           <span>SEPA Credit Transfer</span>
         </div>
+        <button class="copy-btn" onclick="copyText('iban-bunq', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Banca:</strong> BUNQ B.V.</p>
@@ -141,14 +117,12 @@
     
     <!-- Crypto.com Paystring
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('paystring-cryptocom', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="paystring.jpg" alt="Paystring logo">
           <span>Paystring - Crypto.com</span>
         </div>
+        <button class="copy-btn" onclick="copyText('paystring-cryptocom', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Dominio blockchain:</strong> <span id="paystring-cryptocom" class="font-monospace">mattiar$paystring.crypto.com</span></p>
@@ -158,14 +132,12 @@
 
     <!-- Yap -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('yap', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="yap.jpg" alt="Yap logo">
           <span>YAP</span>
         </div>
+        <button class="copy-btn" onclick="copyText('yap', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Numero:</strong> <span class="font-monospace">+39 335221518</span><span id="yap" style="display:none;">335221518</span></p>
@@ -174,14 +146,12 @@
 
     <!-- BancomatPay -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('bancomatpay', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="bancomatpay.jpg" alt="BancomatPay logo">
           <span>BancomatPay</span>
         </div>
+        <button class="copy-btn" onclick="copyText('bancomatpay', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Numero:</strong> <span class="font-monospace">+39 335221518</span><span id="bancomatpay" style="display:none;">335221518</span></p>
@@ -190,35 +160,33 @@
 
     <!-- Satispay -->
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('satispay-iban', this)">
-        <i class="fa fa-clone"></i> Copia IBAN
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="satispay.jpg" alt="Satispay logo">
           <span>Satispay</span>
         </div>
+        <button class="copy-btn" onclick="copyText('satispay-iban', this)">Copia IBAN</button>
       </div>
-      <div class="payment-details mb-3">
+      <div class="payment-details mb-2">
         <p><strong>Numero:</strong> <span class="font-monospace">+39 335221518</span><span id="satispay" style="display:none;">335221518</span></p>
         <p><strong>IBAN:</strong> <span id="satispay-iban" class="font-monospace">LU688100SATI14433245</span></p>
       </div>
-      <button class="btn btn-sm btn-outline-success px-3 rounded-pill show-img-btn" data-img="satispay-qr.jpg">
-        <i class="fa fa-qrcode"></i> Mostra QR Code
-      </button>
+      <div>
+        <button class="action-btn py-1 px-3 fs-7 rounded-pill show-img-btn" data-img="satispay-qr.jpg">
+          <i class="fa fa-qrcode text-primary"></i> Mostra QR Code
+        </button>
+      </div>
     </div>
 
     <!-- Commented out payments (preserved) -->
     <!-- IBAN Nexi 
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-nexi', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="nexi.jpg" alt="Nexi logo">
           <span>SEPA Credit Transfer <small>(no instant)</small></span>
         </div>
+        <button class="copy-btn" onclick="copyText('iban-nexi', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Banca:</strong> NEXI PAYMENTS S.P.A.</p>
@@ -231,14 +199,12 @@
     
     <!-- Trade Republic
     <div class="payment-card">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-traderepublic', this)">
-        <i class="fa fa-clone"></i> Copia
-      </button>
       <div class="payment-header">
         <div class="payment-provider">
           <img src="traderepublic.jpg" alt="Trade Republic logo">
           <span>SEPA Credit Transfer</span>
         </div>
+        <button class="copy-btn" onclick="copyText('iban-traderepublic', this)">Copia</button>
       </div>
       <div class="payment-details">
         <p><strong>Banca:</strong> TRADE REPUBLIC BANK GMBH</p>
@@ -277,14 +243,14 @@
     
     navigator.clipboard.writeText(text);
 
-    const originalHTML = btn.innerHTML;
-    btn.innerHTML = "<i class='fa fa-check'></i> Copiato!";
-    btn.classList.remove('btn-outline-primary');
-    btn.classList.add('btn-success');
+    const originalText = btn.innerText;
+    btn.innerText = "Copiato!";
+    btn.style.background = "#30d158";
+    btn.style.color = "#ffffff";
     setTimeout(() => {
-      btn.innerHTML = originalHTML;
-      btn.classList.remove('btn-success');
-      btn.classList.add('btn-outline-primary');
+      btn.innerText = originalText;
+      btn.style.background = "";
+      btn.style.color = "";
     }, 1800);
   }
 
@@ -295,7 +261,7 @@
   }
   
   function hideOverlay() {
-    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('overlay') .style.display = 'none';
   }
 
   document.querySelectorAll('.show-img-btn').forEach(btn => {
@@ -307,27 +273,5 @@
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  const themeToggleBtn = document.getElementById('theme-toggle');
-  themeToggleBtn.addEventListener('click', () => {
-    const activeTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = activeTheme === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    updateToggleIcon(newTheme);
-  });
-  
-  function updateToggleIcon(theme) {
-    const icon = themeToggleBtn.querySelector('i');
-    if (theme === 'light') {
-      icon.className = 'fa fa-moon-o';
-    } else {
-      icon.className = 'fa fa-sun-o';
-    }
-  }
-  
-  // Initialize toggle icon state
-  updateToggleIcon(document.documentElement.getAttribute('data-theme'));
-</script>
 </body>
 </html>
