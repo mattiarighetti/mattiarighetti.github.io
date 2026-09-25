@@ -71,6 +71,19 @@
     <h2>Mattia Righetti</h2>
     <p class="lead">Questi i miei riferimenti per pagamenti e trasferimenti di denaro.</p>
 
+    <!-- BancomatPay -->
+    <div class="method-box text-start">
+      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('bancomatpay')">
+        Copia
+      </button>
+      <div class="method-title">
+        <img src="bancomatpay.jpg" alt="BancomatPay logo">BancomatPay
+      </div>
+      <p>
+        <strong>Numero:</strong> +39<span id="bancomatpay">335221518</span>
+      </p>
+    </div>
+
     <!-- IBAN Intesa Sanpaolo -->
     <div class="method-box text-start">
       <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('iban-isp')">
@@ -85,23 +98,6 @@
         <strong>IBAN:</strong> <span id="iban-isp">IT98P0306958050100000003524</span><br>
         <strong>BIC:</strong> BCITITMM
       </p>
-    </div>
-
-    <!-- PayPal -->
-    <div class="method-box text-start">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('paypal-email')">
-        Copia
-      </button>
-      <div class="method-title">
-        <img src="paypal.jpg" alt="PayPal">PayPal
-      </div>
-      <p>
-        <strong>Email:</strong> <span id="paypal-email">m@rght.it</span><br>
-        <strong>Link:</strong> <a href="https://paypal.me/rght" target="_blank" id="paypal-link">paypal.me/rght</a>
-      </p>
-      <button class="btn btn-sm btn-outline-success show-img-btn" data-img="paypal-qr.jpg">
-        QR Code
-      </button>
     </div>
 
     <!-- IBAN Revolut -->
@@ -120,6 +116,23 @@
         <strong>Link:</strong> <a href="https://revolut.me/mrght" target="_blank" id="revolut-link">revolut.me/mrght</a>
       </p>
       <button class="btn btn-sm btn-outline-success show-img-btn" data-img="revolut-qr.jpg">
+        QR Code
+      </button>
+    </div>
+
+    <!-- PayPal -->
+    <div class="method-box text-start">
+      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('paypal-email')">
+        Copia
+      </button>
+      <div class="method-title">
+        <img src="paypal.jpg" alt="PayPal">PayPal
+      </div>
+      <p>
+        <strong>Email:</strong> <span id="paypal-email">m@rght.it</span><br>
+        <strong>Link:</strong> <a href="https://paypal.me/rght" target="_blank" id="paypal-link">paypal.me/rght</a>
+      </p>
+      <button class="btn btn-sm btn-outline-success show-img-btn" data-img="paypal-qr.jpg">
         QR Code
       </button>
     </div>
@@ -166,19 +179,6 @@
       </div>
       <p>
         <strong>Numero:</strong> +39<span id="yap">335221518</span>
-      </p>
-    </div>
-
-    <!-- BancomatPay -->
-    <div class="method-box text-start">
-      <button class="btn btn-sm btn-outline-primary copy-btn" onclick="copyText('bancomatpay')">
-        Copia
-      </button>
-      <div class="method-title">
-        <img src="bancomatpay.jpg" alt="BancomatPay logo">BancomatPay
-      </div>
-      <p>
-        <strong>Numero:</strong> +39<span id="bancomatpay">335221518</span>
       </p>
     </div>
 
